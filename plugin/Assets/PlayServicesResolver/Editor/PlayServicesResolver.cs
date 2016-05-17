@@ -86,7 +86,7 @@ namespace GooglePlayServices
         /// Gets the resolver.
         /// </summary>
         /// <value>The resolver.</value>
-        static IResolver Resolver
+        public static IResolver Resolver
         {
             get
             {
