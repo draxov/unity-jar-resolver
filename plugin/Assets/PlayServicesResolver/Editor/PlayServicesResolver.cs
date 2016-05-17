@@ -154,7 +154,7 @@ namespace GooglePlayServices
         /// <returns><c>true</c>, if overwrite confirmation was handled, <c>false</c> otherwise.</returns>
         /// <param name="oldDep">Old dependency.</param>
         /// <param name="newDep">New dependency replacing old.</param>
-        static bool HandleOverwriteConfirmation(Dependency oldDep, Dependency newDep)
+        public static bool HandleOverwriteConfirmation(Dependency oldDep, Dependency newDep)
         {
             // Don't prompt overwriting the same version, just do it.
             if (oldDep.BestVersion != newDep.BestVersion)
